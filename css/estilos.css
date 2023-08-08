@@ -1,0 +1,153 @@
+.imagem1{
+    background-image: url('imagens/imagem_de_fundo.png');
+    background-size: contain;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    filter: blur(2px);
+    padding: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.imagem1{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+h1{
+    font-family: 'Bruno Ace SC', cursive;
+    font-weight: bold;
+    font-size: 55px;
+    color: white;
+    flex: 1;
+    padding-left: 20px;
+    word-wrap: break-word;
+}
+
+.container1{
+    display: flex;
+}
+
+.silhueta{
+    justify-content: left;
+    height: auto;
+    margin-right: 200px;
+}
+
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: auto;
+    border-top: 1px solid #ccc;
+}
+
+.column {
+    flex-basis: 50%; 
+    text-align: center;
+    margin-top: 30px;
+}
+
+.tanque{
+    border-radius: 50%;
+    object-fit: cover;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container2 > *{
+    flex-basis: 50%;
+    text-align: center; 
+    box-sizing: border-box; 
+}
+
+.container2 p{
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 150px;
+    font-size: 30px;
+    color: white;
+}
+
+.descricao_m1a2{
+    display: none;
+    background-color: rgba(0, 0, 0, 0.8); 
+    color: #fff;
+    padding: 10px;
+}
+
+.descricao_leopard{
+    display: none;
+    background-color: rgba(0, 0, 0, 0.8); 
+    color: #fff;
+    padding: 10px;
+}
+
+.descricao_t14{
+    display: none;
+    background-color: rgba(0, 0, 0, 0.8); 
+    color: #fff;
+    padding: 10px;
+}
+
+.descricao_t90{
+    display: none;
+    background-color: rgba(0, 0, 0, 0.8); 
+    color: #fff;
+    padding: 10px;
+}
+
+.descricao_challenger{
+    display: none;
+    background-color: rgba(0, 0, 0, 0.8); 
+    color: #fff;
+    padding: 10px;
+}
+
+.descricao_merkava{
+    display: none;
+    background-color: rgba(0, 0, 0, 0.8); 
+    color: #fff;
+    padding: 10px;
+}
+
+.agradecimento{
+    border-top: 1px solid #ccc;
+    display: flex;
+    margin-top: 50px;
+}
+
+.agradecimento p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.icone{
+    justify-content: left;
+    height: auto;
+    margin-left: 700px;
+    margin-top: 30px;
+}
+
+footer p{
+    font-family: 'Federant', cursive;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    border-top: 1px solid #ccc;
+}

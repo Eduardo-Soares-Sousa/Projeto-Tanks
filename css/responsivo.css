@@ -1,0 +1,60 @@
+@media (max-width: 1280px){
+    body{
+      padding: 0 40px;
+    }
+    
+    .imagem1{
+        background-size: contain;
+        background-position: center center;
+        background-attachment: fixed;
+    }
+}
+  
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    padding: 40px;
+}
+
+.conteudo {
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .container1, .container2 {
+        display: block;
+    }
+
+    .column {
+        margin-bottom: 20px;
+    }
+
+    .imagem1{
+        background-size: contain;
+        background-position: center center;
+        background-attachment: fixed;
+    }
+
+    .tanque {
+        width: 100%;
+        height: auto;
+    }
+
+    .descricao {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .imagem1 {
+      background-size: contain;
+      background-position: center center;
+      background-attachment: fixed;
+    }
+  }
+
+.descricao_m1a2, .descricao_leopard, .descricao_t14, .descricao_t90, .descricao_challenger, .descricao_merkava {
+    display: none;
+}
